@@ -86,7 +86,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 4rem 1rem;
 }
 .title-text{
     font-size: 3rem;
