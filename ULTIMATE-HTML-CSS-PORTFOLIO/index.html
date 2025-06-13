@@ -1,128 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel portfolio</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,
-wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,
+wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
-font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL
-/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body id="top-of-page">
     <div class="underlay"></div>
     <header>
-        <a href="./">
+      <a href="./">
         <h1>Nweke Daniel</h1>
+      </a>
+      <h4>Frontend Developer</h4>
+      <p>I build engaging and accessible digital experiences.</p>
+
+      <nav>
+        <a class="anchor-text" href="#about">
+          <p>About</p>
         </a>
-        <h4>Frontend Developer</h4>
-        <p>I build engaging and accessible digital experiences.</p>
 
-        <nav>
-            <a>
-                <p>About</p>
-            </a>
+        <a class="anchor-text" href="#experience">
+          <p>Experience</p>
+        </a>
 
-            <a>
-                <p>Experience</p>
+        <a class="anchor-text" href="#projects">
+          <p>Projects</p>
+        </a>
+      </nav>
 
-            </a>
-
-            <a>
-                <p>Projects</p>
-
-            </a>
-        </nav>
-
-        <div>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-        </div>
-
+      <div class="social-link-container">
+        <a class="social-link" href="./" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a class="social-link" href="./" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="social-link" href="./" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a class="social-link" href="./" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
     </header>
 
     <main>
-        <section>
-            <div>
-                <h2 
-                class="lightText">About</h2>
-            </div>
-            <div class="about-content">
-                <p>Hello my name is Daniel and i 
-                really enjoy programming, 
-                watching series and going to the 
-                gym and currently its sunny outside
-                 which i also enjoy because it means 
-                 i have an excuse to stay inside!
-                </p>
-                <p>Hello my name is Daniel and i 
-                really enjoy programming, 
-                <a target="_blank" href=
-                "https://www.youtube.com/watch?v=Eb3lOiukwAQ&t=8171s" 
-                class="anchor-text">watching series</a> and going to the 
-                gym and currently its raining outside
-                 which i also enjoy because it means 
-                 i have an excuse to stay inside!
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Aut reprehenderit enim aliquid dicta neque cumque, 
-                     eligendi sunt in aliquam praesentium fugiat tempora aspernatur, 
-                     voluptatem odio eius omnis iure architecto tempore.
-                </p>
-                
+      <section id="about">
+        <div class="sticky-header">
+          <h2 class="lightText">About</h2>
+        </div>
+        <div class="about-content">
+          <p>
+            Hello my name is Daniel and i really enjoy programming, watching
+            series and going to the gym and currently its sunny outside which i
+            also enjoy because it means i have an excuse to stay inside!
+          </p>
+          <p>
+            Hello my name is Daniel and i really enjoy programming,
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=Eb3lOiukwAQ&t=8171s"
+              class="anchor-text"
+            >
+              watching series</a
+            >and going to the gym and currently its raining outside which i also
+            enjoy because it means i have an excuse to stay inside!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            reprehenderit enim aliquid dicta neque cumque, eligendi sunt in
+            aliquam praesentium fugiat tempora aspernatur, voluptatem odio eius
+            omnis iure architecto tempore.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="sticky-header">
+          <h2 class="lightText">Experience</h2>
+        </div>
+
+        <div class="experience-content">
+          <div class="experience-card">
+            <p class="tenure">2024 - present</p>
+            <div class="card-column">
+              <a href="./" target="_blank" class="anchor-text">
+                <h3 class="anchor-text card-header">
+                  Frontend Developer · Zetane Systems 
+                  <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                temporibus accusamus quas, aperiam odit corporis pariatur fugit
+                est magni, repudiandae totam at suscipit reiciendis. Ab dicta
+                odio ipsam consequatur animi.
+              </p>
               
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2
-                class="lightText">Experience</h2>
-            </div>
-            <div class="experience-content">
-                <div>
-                    <p class="tenure">2024 - present</p>
-                    <a href="./" target="_blank">
-                        <h3  class="anchor-text">Frontend Developer · Zetane Systems ICON</h3>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet temporibus 
-                        accusamus quas, aperiam odit corporis pariatur fugit est magni, repudiandae
-                         totam at suscipit reiciendis. Ab dicta odio ipsam consequatur animi.</p>
-
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
                 </div>
-            </div>
-        </section>
 
-        <section>
-            <div>
-                <h2
-                class="lightText">Projects</h2>
-            </div>
-            <div>
-                CONTENTS
-            </div>
-        </section>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
 
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
 
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <p class="tenure">2024 - present</p>
+            <div class="card-column">
+              <a href="./" target="_blank" class="anchor-text">
+                <h3 class="anchor-text card-header">
+                  Frontend Developer · Zetane Systems 
+                  <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                temporibus accusamus quas, aperiam odit corporis pariatur fugit
+                est magni, repudiandae totam at suscipit reiciendis. Ab dicta
+                odio ipsam consequatur animi.
+              </p>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <p class="tenure">2024 - present</p>
+            <div class="card-column">
+              <a href="./" target="_blank" class="anchor-text">
+                <h3 class="anchor-text card-header">
+                  Frontend Developer · Zetane Systems 
+                  <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                temporibus accusamus quas, aperiam odit corporis pariatur fugit
+                est magni, repudiandae totam at suscipit reiciendis. Ab dicta
+                odio ipsam consequatur animi.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                harum commodi rerum, veniam ducimus temporibus quo fugit iste
+                libero sed dolore eos doloremque eum vitae ex sunt explicabo
+                dolores. Aut.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a href="/ULTIMATE-HTML-CSS-PORTFOLIO/public/Hyr.sh ⋅ Admin.pdf pomeii.pdf" target="_blank" class="anchor-text">
+          <p>View Full Resume <i class="fa-solid fa-arrow-right anchor-icon"></i></p>
+        </a>
+      </section>
+
+      <section id="projects">
+        <div class="sticky-header">
+          <h2 class="lightText">Projects</h2>
+        </div>
+        <div class="project-content">
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="/ULTIMATE-HTML-CSS-PORTFOLIO/public/washington.png"
+                alt="my_thumbnail"
+              />
+            </div>
+            <div class="card-column">
+              <a href="./" target="_blank" class="anchor-text">
+                <h3 class="anchor-text card-header">
+                  Frontend Developer · Zetane Systems 
+                  <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                temporibus accusamus quas, aperiam odit corporis pariatur fugit
+                est magni, repudiandae totam at suscipit reiciendis. Ab dicta
+                odio ipsam consequatur animi.
+              </p>
+              <a
+                href="./"
+                target="_blank"
+                class="anchor-text project-stat-link"
+              >
+                <i class="fa-solid fa-star"></i>
+                <p>635</p>
+              </a>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="/ULTIMATE-HTML-CSS-PORTFOLIO/public/washington.png"
+                alt="my_thumbnail"
+              />
+            </div>
+            <div class="card-column">
+              <a href="./" target="_blank" class="anchor-text">
+                <h3 class="anchor-text card-header">
+                  Frontend Developer · Zetane Systems 
+                  <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                temporibus accusamus quas, aperiam odit corporis pariatur fugit
+                est magni, repudiandae totam at suscipit reiciendis. Ab dicta
+                odio ipsam consequatur animi.
+              </p>
+              <a
+                href="./"
+                target="_blank"
+                class="anchor-text project-stat-link"
+              >
+                <i class="fa-solid fa-star"></i>
+                <p>635</p>
+              </a>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="./" class="project-archive-link">
+          <p>
+            View Full Project Archive <span class="right-arrow">&rarr;</span>
+          </p>
+        </a>
+      </section>
     </main>
 
     <footer>
-        <p>PLACEHOLDER TEXT</p>
-
-
+      <p>
+        Coded in
+        <a
+          href="https://code.visualstudio.com/"
+          target="_blank"
+          class="anchor-text"
+        >
+          Visual Studio Code </a
+        >by yours truely.<br />
+        Built width HTML & CSS, and deployed with
+        <a href="https://www.netlify.com/" target="_blank" class="anchor-text"
+          >Netlify</a
+        >. <br />
+        All Text is set in the
+        <a href="https://rsms.me/inter/" target="_blank" class="anchor-text">
+          Inter
+        </a>
+        typeface.
+      </p>
+      <a href="#top-of-page" class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
     </footer>
-</body>
+  </body>
 </html>
